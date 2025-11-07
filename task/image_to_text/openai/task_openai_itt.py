@@ -19,7 +19,7 @@ def start() -> None:
     #  1. Create DialModelClient
     #  2. Call client to analise image:
     #    - try with base64 encoded format
-    #    - try with URL: https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Gfp-wisconsin-madison-the-nature-boardwalk.jpg/2560px-Gfp-wisconsin-madison-the-nature-boardwalk.jpg
+    #    - try with URL: https://a-z-animals.com/media/2019/11/Elephant-male-1024x535.jpg
     #  ----------------------------------------------------------------------------------------------------------------
     #  Note: This approach embeds the image directly in the message as base64 data URL! Here we follow the OpenAI
     #        Specification but since requests are going to the DIAL Core, we can use different models and DIAL Core
