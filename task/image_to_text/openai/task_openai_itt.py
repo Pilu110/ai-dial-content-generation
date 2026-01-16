@@ -16,7 +16,7 @@ def start() -> None:
     base64_image = base64.b64encode(image_bytes).decode('utf-8')
 
     #  1. Create DialModelClient
-    client = DialModelClient(endpoint=DIAL_CHAT_COMPLETIONS_ENDPOINT, api_key=API_KEY, deployment_name="gpt-4")
+    client = DialModelClient(endpoint=DIAL_CHAT_COMPLETIONS_ENDPOINT, api_key=API_KEY, deployment_name="gpt-4o")
 
 
     #  2. Call client to analise image:
